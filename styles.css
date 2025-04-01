@@ -8,3 +8,29 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
