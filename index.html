@@ -8,11 +8,15 @@
     </head>
 <body>
     <div class="container">
-        <h1>Welcome</h1>
+        <h1>Welcome!</h1>
         <p>Enter your name below:</p>
         <input type="text" id="nameInput" placeholder="Your name">
         <button id="greetButton">Get Greeting</button>
-        <h2 id="greetingMessage"></h2>
+        <h2 id="greetingMessage"></h2> <div id="questionsContainer" style="display: none;">
+            <p id="questionMessage"></p>
+            <input type="text" id="answerInput" placeholder="Your answer">
+            <button id="nextButton">Next</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
