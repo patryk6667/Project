@@ -14,7 +14,7 @@ const questions = [
     "Where would you love to travel the most?"
 ];
 
-\
+
 greetButton.addEventListener('click', function() {
     const name = nameInput.value.trim();
 
