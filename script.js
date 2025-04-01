@@ -23,9 +23,10 @@ greetButton.addEventListener('click', function() {
         questionsContainer.style.display = "block";
         questionMessage.textContent = questions[currentQuestionIndex];
         nameInput.style.display = "none";
-        greetButton.style.display = "none";
-        
-    } else {
+        greetButton.style.display = "none";     
+    } 
+    
+    else {
         greetingMessage.textContent = "Please enter your name.";
         greetingMessage.style.color = "red";
     }
@@ -39,12 +40,15 @@ nextButton.addEventListener('click', function() {
 
         if (currentQuestionIndex < questions.length) {questionMessage.textContent = questions[currentQuestionIndex];
             answerInput.value = '';  
- } else {
+ } 
+        
+        else {
             questionMessage.textContent = "Thank you for sharing! We've completed the questions.";
              nextButton.style.display = "none";
              answerInput.style.display = "none";
     }
-    } else {
+        
+       else {
         alert("Please enter an answer before proceeding.");
     }
     });
