@@ -1,4 +1,3 @@
-\
 const greetButton = document.getElementById('greetButton');
 const nameInput = document.getElementById('nameInput');
 const greetingMessage = document.getElementById('greetingMessage');
